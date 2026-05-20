@@ -114,6 +114,7 @@ barplot(FAIplot$FATALITIES,
         names.arg = FAIplot$EVTYPE, 
         las= 1)
 ```
+![FatalitiesPerEvent](FatalitiesPerEvent.png)
 
 ### Graph 2) Injuries
 ```r
@@ -125,6 +126,7 @@ barplot(FAIplot$INJURIES,
         names.arg = FAIplot$EVTYPE, 
         las= 1)
 ```
+![InjuriesPerEvent](InjuriesPerEvent.png) 
 
 ## Which types of events have the greatest economic consequences?
 Let us now see, through the same collection of dies, which disaster will be considered the greatest impact economically.
@@ -171,6 +173,7 @@ barplot((ECONIMPACTplot$PRODMGs + ECONIMPACTplot$CROPDMGs) / 1000000,
          cex.axis=0.5, cex.names=0.6, 
          names.arg = ECONIMPACTplot$EVTYPE, las= 1, beside = TRUE)
 ```
+![EconomicConseqPerEvent](EconomicConseqPerEvent.png) 
 
 # Results
 Through a quick analysis, we can see that tornadoes are leading the list of personal disasters, in both cases, according to the data worked.
